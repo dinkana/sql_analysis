@@ -1,16 +1,16 @@
-Creating the 'reservations' table
-Создание таблицы 'reservations'
+# Создание таблицы 'reservations'
 
-DROP TABLE IF EXISTS reservations;  --optional
+```sql
+DROP TABLE IF EXISTS reservations;
 
 CREATE TABLE reservations(
-	id INTEGER NOT NULL PRIMARY KEY
-	,user_id INTEGER NOT NULL 
-	,room_id INTEGER NOT NULL 
-	,start_date DATE NOT NULL
-	,end_date DATE NOT NULL
-	,price INTEGER NOT NULL
-	,total INTEGER NOT NULL
+    id INTEGER NOT NULL PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    room_id INTEGER NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    price INTEGER NOT NULL,
+    total INTEGER NOT NULL
 );
 
 INSERT INTO reservations(id,user_id,room_id,start_date,end_date,price,total) VALUES (1,1,1,'2018-11-13','2018-11-15',140,980);
