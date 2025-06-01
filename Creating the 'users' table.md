@@ -1,10 +1,8 @@
 # Создание таблицы 'users'
 
 ```sql
--- Optional: Drop the table if it already exists
 DROP TABLE IF EXISTS users;
 
--- Create the users table
 CREATE TABLE users(
     id INTEGER NOT NULL PRIMARY KEY,
     u_name VARCHAR(127) NOT NULL,
@@ -14,7 +12,6 @@ CREATE TABLE users(
     phone_number VARCHAR(20)
 );
 
--- Insert sample data
 INSERT INTO users(id, u_name, email, email_verified_at, u_password, phone_number) VALUES 
 (1, 'Bruce Willis', 'barjam@hotmail.com', '2016-07-05', 'o8sdffsmgtswxjvxxl31', '+353 20 912 2322'),
 (2, 'George Clooney', 'tellis@me.com', '2016-02-22', 'sx8pav3ggtvfwdz1yte7', '+353 20 912 2323'),
