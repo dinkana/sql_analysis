@@ -1,10 +1,8 @@
 # Создание таблицы 'rooms'
 
 ```sql
--- Optional: Drop the table if it already exists
 DROP TABLE IF EXISTS rooms;
 
--- Create the rooms table
 CREATE TABLE rooms(
     id INTEGER NOT NULL PRIMARY KEY,
     home_type VARCHAR(127) NOT NULL,
@@ -19,7 +17,6 @@ CREATE TABLE rooms(
     longitude NUMERIC
 );
 
--- Insert sample data
 INSERT INTO rooms(id,home_type,address,has_tv,has_internet,has_kitchen,has_air_con,price,owner_id,latitude,longitude) VALUES 
 (1,'Private room','11218, Friel Place, New York','1','1','1','0',149,1,40.6475,-73.9633),
 (2,'Entire home/apt','10018, 6th Avenue, New York','0','1','1','1',225,1,40.7536,-73.9634),
