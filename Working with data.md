@@ -15,10 +15,12 @@ join revews rev on rev.reservation_id = res.id
 join rooms r on r.id = res.room_id
 where rev.rating >= 4
 order by res.total desc
+```
 
 #2
 Написать запрос, который выведет тип жилья, его адрес и стоимость за ночь, в адресе которого есть слово 'Avenue'.
 
+```sql
 select
     r.home_type,
     r.address,
@@ -27,12 +29,15 @@ from reservations res
 join revews rev on rev.reservation_id = res.id
 join rooms r on r.id = res.room_id
 where r.address like '%Avenue%'
+```
 
 #3
 В таблице 'rooms' изменить суточные цены за ночь в адресах c 80 на 90,а в адресе есть слово 'Avenue'.
 
+```sql
 update rooms
 set price = 90
 where address like '%Avenue%'
 and price in (80);
 commit;
+```
