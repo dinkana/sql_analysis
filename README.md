@@ -14,7 +14,7 @@
 - `reviews` - рейтинги  
 
 ## Структура базы данных
-[Creating the 'reservations' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'reservations'%20table.md)
-[Creating the 'revews' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'revews'%20table.md)
-[Creating the 'rooms' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'rooms'%20table.md)
-[Creating the 'users' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'users'%20table.md)
+- [Creating the 'reservations' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'reservations'%20table.md)
+- [Creating the 'revews' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'revews'%20table.md)
+- [Creating the 'rooms' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'rooms'%20table.md)
+- [Creating the 'users' table](https://github.com/dinkana/sql_analysis/blob/main/Creating%20the%20'users'%20table.md)
