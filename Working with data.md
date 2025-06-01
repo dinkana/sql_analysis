@@ -17,7 +17,7 @@ where rev.rating >= 4
 order by res.total desc
 ```
 
-#2
+## Запрос 2
 Написать запрос, который выведет тип жилья, его адрес и стоимость за ночь, в адресе которого есть слово 'Avenue'.
 
 ```sql
@@ -31,7 +31,7 @@ join rooms r on r.id = res.room_id
 where r.address like '%Avenue%'
 ```
 
-#3
+## Запрос 3
 В таблице 'rooms' изменить суточные цены за ночь в адресах c 80 на 90,а в адресе есть слово 'Avenue'.
 
 ```sql
