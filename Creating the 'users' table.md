@@ -1,4 +1,3 @@
-# Creating the 'users' table
 # Создание таблицы 'users'
 
 ```sql
