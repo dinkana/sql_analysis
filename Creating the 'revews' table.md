@@ -1,14 +1,20 @@
-Creating the 'revews' table
-Создание таблицы 'revews'
+# Создание таблицы 'revews'
 
-DROP TABLE IF EXISTS revews;  --optional
+```sql
+-- Optional: Drop the table if it already exists
+-- Опционально: Удаляем таблицу, если она уже существует
+DROP TABLE IF EXISTS revews;
 
+-- Create the 'revews' table
+-- Создаем таблицу 'revews'
 CREATE TABLE revews(
-	id INTEGER NOT NULL PRIMARY KEY
-	,reservation_id INTEGER
-	,rating INTEGER
+    id INTEGER NOT NULL PRIMARY KEY,
+    reservation_id INTEGER,
+    rating INTEGER
 );
 
+-- Insert data into the 'revews' table
+-- Вставляем данные в таблицу 'revews'
 INSERT INTO revews(id,reservation_id,rating) VALUES (1,1,4);
 INSERT INTO revews(id,reservation_id,rating) VALUES (2,3,5);
 INSERT INTO revews(id,reservation_id,rating) VALUES (3,4,5);
